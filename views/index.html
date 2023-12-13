@@ -1,0 +1,22 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AROSAJE</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <h1>AROSAJE</h1>
+
+    <p>Bonjour <span id="userFullName"></span></p>
+
+    <script>
+        // Utilisez JavaScript pour définir le nom et le prénom
+        const userFullName = `${user.firstName} ${user.lastName}`;
+        document.getElementById('userFullName').innerText = userFullName;
+    </script>
+</body>
+</html>
